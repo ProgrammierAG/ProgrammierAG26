@@ -1,0 +1,60 @@
+#settings apply to all files in the project
+root = true
+
+#settings apply to all file types
+[*]
+charset = utf-8
+#sets lineending style to line feed(MacOS,Linux), newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+trim_trailing_whitespace = true
+max_line_length = 120
+
+#for css files
+[{*.less,*.scss,*.css}]
+indent_size = 2
+tab_width = 2
+
+# JS/TS
+[{*.js,*.jsx,*.ts,*.tsx}]
+prefer_const = true
+camel_case_variables = true
+pascal_case_classes = true
+indent_size = 2
+tab_width = 2
+
+# Kotlin-specific properties
+[{*.kt,*.kts}]
+camel_case_variables = true
+pascal_case_classes = true
+tab_width = 4
+indent_size = 4
+insert_final_newline = true
+ij_kotlin_code_style_defaults = KOTLIN_OFFICIAL
+ktlint_standard_multiline-expression-wrapping = disabled
+ktlint_standard_string-template-indent = disabled
+ij_kotlin_allow_trailing_comma_on_call_site = false
+ij_kotlin_allow_trailing_comma = false
+ij_kotlin_name_count_to_use_star_import = 1024
+ij_kotlin_name_count_to_use_star_import_for_members = 1024
+
+# Java-specific properties
+[*.java]
+ij_java_class_count_to_use_import_on_demand = 1024
+ij_java_names_count_to_use_import_on_demand = 1024
+indent_size = 2
+tab_width = 2
+
+# Quarkus-specific properties
+[*.qute]
+indent_size = 2
+tab_width = 2
+
+[{*.http,*.rest}]
+indent_size = 2
+tab_width = 2
+
+[{*.markdown,*.md}]
+tab_width = 4
+indent_size = 4
