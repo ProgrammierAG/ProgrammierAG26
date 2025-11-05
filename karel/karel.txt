@@ -1,5 +1,128 @@
 
 void karelsFirstProgram()
 {
+    // your code here
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    moveForward();
+    turnRight();
+    moveForward();
+    dropBeeper();
+    moveForward();
+}
+
+void obtainArtifact()
+{
+    turnRight();
+    moveForward();
+    turnLeft();
+    repeat(3) {
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+    pickBeeper();
+}void defuseOneBomb()
+ {
+     repeat (9)
+     {
+         moveForward();
+     }
+     pickBeeper();
+     turnAround();
+     repeat (9)
+     {
+         moveForward();
+
+     }
+     dropBeeper();
+ }void defuseTwoBombs()
+  {
+
+
+
+
+
+      repeat (9)
+      {
+          moveForward();
+      }
+      pickBeeper();
+      turnAround();
+      repeat (9)
+      {
+          moveForward();
+      }
+      turnRight();
+      repeat (9)
+      {
+          moveForward();
+      }
+      pickBeeper();
+      turnAround();
+      repeat (9)
+      {
+          moveForward();
+      }
+  }
+
+void climbTheStairs()
+{
+    repeat (6)
+    {
+        moveForward();
+        turnLeft();
+        moveForward();
+        turnRight();
+    }
+    moveForward();
+}
+
+
+void fillTheHoles()
+{
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+    }
 
 }
+
+
+void saveTheFlower()
+{
+    moveForward();
+    pickBeeper();
+    turnAround();
+    moveForward();
+    turnAround();
+    repeat (4)
+    {
+
+        moveForward();
+        turnLeft();
+        moveForward();
+        moveForward();
+        turnRight();
+    }
+    moveForward();
+    dropBeeper();
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        moveForward();
+        turnLeft();
+    }
+}
+
