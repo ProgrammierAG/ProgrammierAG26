@@ -1,5 +1,164 @@
 
 void karelsFirstProgram()
 {
+    // your code here
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    moveForward();
+    turnRight();
+    moveForward();
+    dropBeeper();
+    moveForward();
+
+}
+
+
+
+void obtainArtifact()
+{
+    // your code here
+
+
+    turnRight();
+    moveForward();
+    turnLeft();
+    repeat (3)
+    {
+        moveForward();
+
+    }
+
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    repeat (3)
+    {
+        moveForward();
+
+    }
+
+    turnLeft();
+    moveForward();
+    dropBeeper();
+
+
+
+
+
+
+
+
+}
+
+
+
+
+void defuseOneBomb()
+{
+    repeat (9)
+    {
+        moveForward();
+
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+
+    }
+}
+
+void karelsFirstProgram()
+{
+
+
+
+void defuseTwoBombs()
+{
+    repeat (9)
+    {
+        moveForward();
+
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+
+    }
+    turnRight();
+    repeat (9)
+    {
+        moveForward();
+
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+    }
+}
+
+
+void practiceHomeRun()
+{
+    repeat (4)
+    {
+        pickBeeper();
+        repeat (9)
+        {
+            moveForward();
+
+        }
+        turnLeft();
+    }
+}
+
+
+void climbTheStairs()
+{
+    moveForward();
+    repeat (6)
+    {
+        turnLeft();
+        moveForward();
+        turnRight();
+        moveForward();
+
+    }
+
+
+
+
+
+
+
+}
+
+
+void fillTheHoles()
+{
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+
+    }
+
+
+
 
 }
