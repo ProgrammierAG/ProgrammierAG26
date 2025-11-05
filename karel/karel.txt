@@ -1,5 +1,50 @@
-
 void karelsFirstProgram()
 {
 
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    moveForward();
+    turnRight();
+    moveForward();
+    dropBeeper();
+    moveForward();
 }
+aufgabe2
+void obtainArtifact()
+{
+    turnRight();
+    moveForward();
+    turnLeft();
+    moveForward();
+    moveForward();
+    moveForward();
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    moveForward();
+    moveForward();
+    moveForward();
+    turnLeft();
+    moveForward();
+    dropBeeper();
+   }
+   // aufgabe3
+   void defuseOneBomb()
+   {
+       repeat (9)
+       {
+           moveForward();
+       }
+       pickBeeper();
+       turnAround();
+       repeat (9)
+       {
+           moveForward();
+       }
+       turnAround();
+   }
+
