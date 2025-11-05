@@ -1,4 +1,44 @@
 
+void mowTheLawn()
+{
+    repeat (6)
+    {
+        moveForward();
+        pickBeeper();
+
+    }
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    repeat (5)
+    {
+        moveForward();
+        pickBeeper();
+    }
+    turnRight();
+    moveForward();
+    pickBeeper();
+    turnRight();
+    repeat (5)
+    {
+        moveForward();
+        pickBeeper();
+    }
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    repeat (5)
+    {
+        moveForward();
+        pickBeeper();
+    }
+}
+
+}
+
+
 
 void followTheSeeds()
 {
