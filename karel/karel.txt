@@ -1,5 +1,177 @@
+void karelsFirstProgram()
+{
+    // your code here
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    moveForward();
+    turnRight();
+    moveForward();
+    dropBeeper();
+    moveForward();
+}
 
 void karelsFirstProgram()
 {
 
 }
+
+void obtainArtifact()
+{
+    turnRight();
+    moveForward();
+    turnLeft();
+    repeat(3) {
+
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    repeat(3) {
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+    dropBeeper();
+
+}
+
+void karelsFirstProgram()
+{
+
+}
+
+void defuseOneBomb()
+{
+    repeat(9) {
+        moveForward();
+    }
+    turnAround();
+    pickBeeper();
+    repeat(9) {
+        moveForward();
+    }
+    turnAround();
+}
+void karelsFirstProgram()
+{
+    repeat(4) {
+
+
+        repeat(9) {
+            moveForward();
+        }
+        pickBeeper();
+        turnLeft();
+    }
+}
+void karelsFirstProgram()
+{
+
+}
+
+void defuseOneBomb()
+{
+    repeat (9) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+    repeat (8) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat (9) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat (8) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(8) {
+        dropBeeper();
+        moveForward();
+    }
+
+    turnLeft();
+    repeat(7) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(7) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(6) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat (6) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat (5) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat (5) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(4) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(4) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(3) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(3) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(2) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    repeat(2) {
+        dropBeeper();
+        moveForward();
+    }
+    turnLeft();
+    dropBeeper();
+    moveForward();
+    dropBeeper();
+    turnLeft();
+    moveForward();
+    dropBeeper();
+
+
+
+
+}
+
