@@ -1,5 +1,150 @@
 
 void karelsFirstProgram()
 {
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    moveForward();
+    turnRight();
+    moveForward();
+    dropBeeper();
+    moveForward();// your code here
 
 }
+
+void obtainArtifact ()
+{
+    turnRight();
+    moveForward();
+    turnLeft();
+    repeat (3)
+    {
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    repeat (3)
+    {
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+    dropBeeper();
+}
+
+void defuseOneBomb ()
+{
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+    }
+}
+
+void defuseTwoBombs ()
+{
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+    }
+    turnAround();
+    turnLeft();
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+    }
+}
+
+void practiceHomeRun ()
+{
+    repeat (4)
+    {
+        repeat (9)
+        {
+            moveForward();
+        }
+        pickBeeper();
+        turnLeft();
+    }
+
+}
+
+void climbTheStairs ()
+{
+    moveForward();
+    repeat (6)
+    {
+        turnLeft();
+        moveForward();
+        turnRight();
+        moveForward();
+
+    }
+
+}
+
+void fillTheHoles()
+{
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+
+    }
+}
+
+void saveTheFlower()
+{
+    moveForward();
+    pickBeeper();
+    repeat (4)
+    {
+        turnLeft();
+        repeat (2)
+        {
+            moveForward();
+        }
+        turnRight();
+        moveForward();
+    }
+    dropBeeper();
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        repeat (2)
+        {
+            moveForward();
+        }
+        turnLeft();
+    }
+}
+
