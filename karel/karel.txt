@@ -3,3 +3,177 @@ void karelsFirstProgram()
 {
 
 }
+void obtainArtifact()
+{
+    // your code here
+    turnRight();
+    moveForward();
+    turnLeft();
+    repeat (3)
+    {
+        moveForward();
+    }
+    turnLeft();
+    repeat (2)
+    {
+        moveForward();
+    }
+    turnLeft();
+    repeat (3)
+    {
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+    turnLeft();
+}
+
+void defuseOneBomb()
+{
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+    }
+    turnAround();
+}
+void defuseTwoBombs()
+{
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+    }
+    turnRight();
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnAround();
+    repeat (9)
+    {
+        moveForward();
+    }
+    turnAround();
+}
+void practiceHomeRun()
+{
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnLeft();
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnLeft();
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnLeft();
+    repeat (9)
+    {
+        moveForward();
+    }
+    pickBeeper();
+    turnLeft();
+}
+void climbTheStairs()
+{
+    moveForward();
+    repeat (6)
+    {
+        turnLeft();
+        moveForward();
+        turnRight();
+        moveForward();
+    }
+}
+void fillTheHoles()
+{
+
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+    }
+}
+void saveTheFlower()
+{
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    moveForward();
+    moveForward();
+    repeat (3)
+    {
+        turnRight();
+        moveForward();
+        turnLeft();
+        moveForward();
+        moveForward();
+    }
+    turnRight();
+    moveForward();
+    dropBeeper();
+    moveForward();
+    repeat (3)
+    {
+        turnRight();
+        moveForward();
+        moveForward();
+        turnLeft();
+        moveForward();
+
+    }
+    turnRight();
+    moveForward();
+    moveForward();
+}
+void mowTheLawn()
+{
+    repeat (3)
+    {
+
+        repeat (6)
+        {
+            moveForward();
+            pickBeeper();
+        }
+        moveForward();
+        turnLeft();
+        moveForward();status
+        turnLeft();
+        repeat (6)
+        {
+            moveForward();
+            pickBeeper();
+        }
+        moveForward();
+        turnRight();
+        moveForward();
+        turnRight();
+    }
+}
