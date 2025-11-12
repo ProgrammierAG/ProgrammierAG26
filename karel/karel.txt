@@ -177,3 +177,68 @@ void mowTheLawn()
         turnRight();
     }
 }
+void tileTheFloor()
+{
+    repeat (100)
+    {
+        dropBeeper();
+        if (!frontIsClear())
+        {
+            turnLeft();
+        }
+        moveForward();
+        if (beeperAhead())
+        {
+            turnLeft();
+        }
+    }
+}
+void removeTheTiles()
+{
+    repeat (100)
+    {
+        if (onBeeper())
+        {
+            pickBeeper();
+        }
+        moveForward();
+        if (!frontIsClear() || !beeperAhead())
+        {
+            turnLeft();
+        }
+    }
+}
+void walkTheLabyrinth()
+{
+    while (!onBeeper())
+    {
+        if (frontIsClear()) {
+            moveForward();
+
+        }
+        else if (rightIsClear()) {
+            turnRight();
+        }
+        else if (leftIsClear()) {
+            turnLeft();
+        }
+    }
+    if (onBeeper())
+    {
+        pickBeeper();
+    }
+}
+void followTheSeeds()
+{
+    repeat (100)
+    {
+        if (beeperAhead())
+        {
+            moveForward();
+            pickBeeper();
+        }
+        else {
+            turnLeft();
+        }
+    }
+}
