@@ -3,3 +3,106 @@ void karelsFirstProgram()
 {
 
 }
+
+void fillTheHoles()
+{
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+    }
+}
+
+void saveTheFlower()
+{
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    repeat (4)
+    {
+        moveForward();
+        moveForward();
+        turnRight();
+        moveForward();
+        turnLeft();
+    }
+    dropBeeper();
+    turnRight();
+    repeat (4)
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        moveForward();
+        turnLeft();
+    }
+}
+
+void repairTheStreet()
+{
+    repeat (6)
+    {
+        if (rightIsClear())
+        {
+            turnRight();
+            moveForward();
+            dropBeeper();
+            turnAround();
+            moveForward();
+            turnRight();
+            moveForward();
+        }
+        else
+        {
+            moveForward();
+            moveForward();
+        }
+    }
+    moveForward();
+    moveForward();
+}
+void cleanTheRoom()
+{
+    repeat (5)
+    {
+
+        repeat (9)
+        {
+            moveForward();
+            if (onBeeper())
+            {
+                pickBeeper();
+            }
+        }
+        turnLeft();
+        moveForward();
+        if (onBeeper())
+        {
+            pickBeeper();
+        }
+        turnLeft();
+        repeat (9)
+        {
+            moveForward();
+            if (onBeeper())
+            {
+                pickBeeper();
+            }
+        }
+        turnRight();
+        moveForward();
+        if (onBeeper())
+        {
+            pickBeeper();
+        }
+        turnRight();
+    }
+
+
+}
