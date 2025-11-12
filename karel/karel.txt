@@ -3,3 +3,111 @@ void karelsFirstProgram()
 {
 
 }
+
+
+void removeTheTiles()
+{
+    repeat (100)
+    {
+        pickBeeper();
+        moveForward();
+        if (!beeperAhead())
+        {
+            turnLeft();
+        }
+    }
+
+
+}
+
+
+void walkTheLabyrinth()
+{
+    repeat (100)
+    {
+        if (beeperAhead() && frontIsClear())
+        {
+            moveForward();
+            pickBeeper();
+        }
+        else
+        {
+            if (!frontIsClear())
+            {
+                if (rightIsClear())
+                {
+                    turnRight();
+                    moveForward();
+                }
+
+                else
+                {
+                    turnLeft();
+                    moveForward();
+                }
+            }
+
+            else
+            {
+                moveForward();
+            }
+        }
+    }
+}
+
+
+
+
+
+
+void hangTheLampions()
+{
+    repeat (10)
+    {
+        pickBeeper();
+        turnLeft();
+        goUntilWall();
+        dropBeeper();
+        turnAround();
+        goUntilWall();
+        turnLeft();
+        if (frontIsClear())
+        {
+            moveForward();
+        }
+
+    }
+}
+
+
+
+
+
+
+void goUntilWall()
+{
+    while (frontIsClear())
+    {
+        moveForward();
+    }
+}
+
+
+
+
+void followTheSeeds()
+{
+    repeat (100)
+
+    {
+        if (beeperAhead())
+        {
+            moveForward();
+            pickBeeper();
+        }
+        else
+        {
+            turnLeft();
+        }
+    }
+}
