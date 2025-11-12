@@ -126,3 +126,57 @@ void saveTheFlower()
     }
 }
 
+
+
+void repairTheStreet()
+{
+    repeat (9)
+    {
+        if (rightIsClear())
+        {
+            turnRight();
+            moveForward();
+            dropBeeper();
+            turnAround();
+            moveForward();
+            turnRight();
+            moveForward();
+        }
+        else
+        {
+            moveForward();
+        }
+    }
+}
+
+
+void hangTheLampions()
+{
+    turnLeft();
+    pickBeeper();
+    repeat (10)
+    {
+        while (frontIsClear())
+        {
+
+            moveForward();
+        }
+        if (!frontIsClear())
+        {
+            dropBeeper();
+            turnAround();
+            while (frontIsClear())
+            {
+                moveForward();
+            }
+            while (!frontIsClear())
+            {
+                turnLeft();
+                moveForward();
+                turnLeft();
+                pickBeeper();
+            }
+        }
+
+    }
+}
