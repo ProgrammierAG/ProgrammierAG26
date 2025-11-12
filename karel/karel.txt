@@ -1,5 +1,132 @@
 
 void karelsFirstProgram()
 {
+    // your code here
 
+}
+
+void harvestTheField()
+{
+
+
+}
+
+void upStairs()
+{
+    repeat (4)
+    {
+        tuningSystem();
+    }
+    moveForward();
+    turnLeft();
+    moveForward();
+    repeat(4) {
+        tuningSystemL();
+    }
+}
+
+void tuningSystem()
+{
+    pickBeeper();
+    turnRight();
+    moveForward();
+    turnLeft();
+    moveForward();
+}
+
+void tuningSystemL()
+{
+    pickBeeper();
+    turnRight();
+    moveForward();
+    turnLeft();
+    moveForward();
+
+}
+
+
+
+
+
+void repairTheStreet()
+{
+    repeat (7)
+    {
+        if (!rightIsClear())
+        {
+            moveForward();
+        }
+        if (rightIsClear()) {
+            turnRight();
+            moveForward();
+            dropBeeper();
+            turnAround();
+            moveForward();
+            turnRight();
+            if (frontIsClear())
+            {
+                moveForward();
+            }
+
+
+
+
+        }
+    }
+}
+
+void cleanTheRoom()
+{
+    repeat (10)
+    {
+
+
+        repeat (10)
+        {
+            if (frontIsClear())
+            {
+                moveForward();
+                if (onBeeper())
+                {
+                    pickBeeper();
+                }
+                if (!frontIsClear()) {
+                    Up();
+                }
+
+            }
+        }
+
+
+        repeat (10)
+        {
+            if (frontIsClear())
+            {
+                moveForward();
+                if (onBeeper())
+                {
+                    pickBeeper();
+                }
+                if (!frontIsClear()) {
+                    Down();
+                }
+
+            }
+        }
+
+    }
+}
+void Up()
+
+{
+    turnLeft();
+    moveForward();
+    turnLeft();
+}
+void Down()
+
+{
+    turnRight();
+    moveForward();
+    turnRight();
 }
