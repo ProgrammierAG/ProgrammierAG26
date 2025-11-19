@@ -111,3 +111,86 @@ void followTheSeeds()
         }
     }
 }
+
+
+
+
+
+void cleanTheTunnels()
+{
+    repeat (10)
+    {
+        turnLeft();
+        while (onBeeper())
+        {
+            pickBeeper();
+            smartMoveForward();
+        }
+        turnAround();
+        goUntilWall();
+        turnLeft();
+        smartMoveForward();
+    }
+}
+
+
+
+
+void goUntilWall()
+{
+    while (frontIsClear())
+    {
+        moveForward();
+    }
+}
+
+
+void smartMoveForward()
+if (frontIsClear())
+{
+    moveForward();
+}
+
+
+
+
+void increment()
+{
+    while (frontIsClear())
+    {
+        if (!onBeeper())
+        {
+            dropBeeper();
+            turnRight();
+        }
+        else
+        {
+            pickBeeper();
+            moveForward();
+
+        }
+    }
+}
+
+
+
+
+
+void decrement()
+{
+    while (frontIsClear())
+    {
+        if (onBeeper())
+        {
+            pickBeeper();
+            turnRight();
+        }
+        else
+        {
+            dropBeeper();
+            moveForward();
+
+        }
+    }
+}
+
