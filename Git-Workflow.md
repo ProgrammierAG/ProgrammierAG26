@@ -7,14 +7,9 @@ Diese Anleitung beschreibt den empfohlenen Arbeitsablauf für die Arbeit mit Git
 ## Git Installation und Konfiguration:
 
 - Git beim Öffnen von IntelliJ IDEA installieren
-    1. Wenn IntelliJ IDEA geöffnet ist, kann man auf `Install Git` klicken.
+    1. Wenn IntelliJ IDEA geöffnet ist, kann man auf `Download and Install Git` klicken.
     2. Alternativ kann Git manuell von der offiziellen [Git-Website](https://git-scm.com/downloads). Lade die Datei `Git for Windows/x64 Setup` herunter. Die heruntergeladene Datei kann anschließend installiert werden.
-- Damit die Änderungen später an das Remote-Repository gesendet werden können, muss im Git die E-Mail-Adresse konfiguriert werden, die für das Repository verwendet wird. Dies erfolgt, indem man das Terminal in IntelliJ IDEA öffnet und den folgenden Befehl eingibt:
-    
-    ```bash
-    git config --global user.email [E-Mail-Adresse]
-    ```
-
+       
 ---
 
 ## Clone Repository
@@ -28,6 +23,13 @@ Nach der Installation und Konfiguration von Git kann das Repository „geklont�
     git clone [HTTPS-Adresse des Repositorys]
     ```
     ***(Die HTTPS-Adresse kann im [GitHub-Repository](https://github.com/ProgrammierAG/ProgrammierAG26) unter `Code` gefunden und kopiert werden)***
+
+- Damit die Änderungen später an das Remote-Repository gesendet werden können, muss im Git die E-Mail-Adresse konfiguriert werden, die für das Repository verwendet wird. Dies erfolgt, indem man das Terminal in IntelliJ IDEA öffnet und den folgenden Befehl eingibt:
+    
+    ```bash
+    git config --global user.email [E-Mail-Adresse]
+    ```
+
 
 ---
 
@@ -86,6 +88,8 @@ Wenn du mit deinen Änderungen fertig bist und sie in das Remote-Repository push
     git push -u origin [deine branch Name]
     ```
 
+4. Es wird ein Fenster zur Authentifizierung mit GitHub geöffnet. Im Fenster einfach durchklicken und die Authentifizierung durchführen.
+
 ### 2. Falls der branch bereits im Remote-Repository vorhanden war:
 1. Füge deine Änderungen mit dem folgenden Befehl im IntelliJ IDEA Terminal auf „Staged“ hinzu
 
@@ -104,3 +108,5 @@ Wenn du mit deinen Änderungen fertig bist und sie in das Remote-Repository push
     ```bash
     git push origin [deine branch Name]
     ```
+
+4. Es wird ein Fenster zur Authentifizierung mit GitHub geöffnet. Im Fenster einfach durchklicken und die Authentifizierung durchführen.
