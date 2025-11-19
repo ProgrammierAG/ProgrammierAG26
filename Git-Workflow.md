@@ -9,6 +9,7 @@ Diese Anleitung beschreibt den empfohlenen Arbeitsablauf für die Arbeit mit Git
 - Git beim Öffnen von IntelliJ IDEA installieren
     1. Wenn IntelliJ IDEA geöffnet ist, kann man auf `Download and Install Git` klicken.
     2. Alternativ kann Git manuell von der offiziellen [Git-Website](https://git-scm.com/downloads). Lade die Datei `Git for Windows/x64 Setup` herunter. Die heruntergeladene Datei kann anschließend installiert werden.
+    3. Schließen Sie IntelliJ IDEA, nachdem Git installiert wurde, und starten Sie es anschließend erneut.
        
 ---
 
