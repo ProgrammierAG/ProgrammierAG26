@@ -327,3 +327,27 @@ void walkTheLabyrinth()
     }
     pickBeeper();
 }
+void hangTheLampions()
+{
+    repeat (10)
+    {
+        turnLeft();
+        pickBeeper();
+        walk();
+        dropBeeper();
+        turnAround();
+        walk();
+        turnLeft();
+        moveForward();
+    }
+
+}
+
+void walk()
+{
+    while (frontIsClear())
+    {
+        moveForward();
+    }
+}
+
