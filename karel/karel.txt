@@ -148,3 +148,182 @@ void saveTheFlower()
     }
 }
 
+void harvestTheField()
+{
+    repeat (2)
+    {
+        repeat (3)
+        {
+            pickBeeper();
+            turnRight();
+            moveForward();
+            turnLeft();
+            moveForward();
+        }
+        pickBeeper();
+        moveForward();
+        turnLeft();
+        moveForward();
+        repeat (3)
+        {
+            pickBeeper();
+            turnLeft();
+            moveForward();
+            turnRight();
+            moveForward();
+    }
+
+}
+
+void repairTheStreet()
+{
+    repeat (9)
+    {
+        if (!rightIsClear())
+        {
+            moveForward();
+        }
+        else
+        {
+            turnRight();
+            moveForward();
+            dropBeeper();
+            turnAround();
+            moveForward();
+            turnRight();
+            moveForward();
+        }
+
+    }
+    turnRight();
+    moveForward();
+    dropBeeper();
+    turnAround();
+    moveForward();
+    turnRight();
+
+
+}
+
+void cleanTheRoom()
+{
+    repeat (5)
+    {
+
+        repeat (9)
+        {
+
+            if (onBeeper())
+            {
+                pickBeeper();
+            }
+            moveForward();
+
+            if (onBeeper())
+            {
+                pickBeeper();
+            }
+
+        }
+        turnLeft();
+        moveForward();
+        turnLeft();
+        repeat (9)
+        {
+
+            if (onBeeper())
+            {
+                pickBeeper();
+            }
+            moveForward();
+
+            if (onBeeper())
+            {
+                pickBeeper();
+            }
+        }
+        turnRight();
+        if (frontIsClear())
+        {
+            moveForward();
+            turnRight();
+        }
+
+
+    }
+
+
+}
+
+void tileTheFloor()
+{
+    repeat (100)
+    {
+        if (beeperAhead() || !frontIsClear())
+        {
+            turnLeft();
+        }
+        dropBeeper();
+        moveForward();
+    }
+}
+void stealOlympicFire()
+{
+    repeat (6)
+    {
+        moveForward();
+
+        turnLeft();
+        moveForward();
+        turnRight();
+
+    }
+    moveForward();
+    pickBeeper();
+    moveForward();
+
+    turnRight();
+
+    repeat (6)
+    {
+        moveForward();
+    }
+    turnLeft();
+    moveForward();
+}
+
+void removeTheTiles()
+{
+    repeat (100)
+    {
+        if (!beeperAhead() || !frontIsClear())
+        {
+            turnLeft();
+        }
+        pickBeeper();
+        moveForward();
+    }
+}
+
+void walkTheLabyrinth()
+{
+    repeat (200)
+    {
+        if (!frontIsClear())
+        {
+            if (!rightIsClear())
+            {
+                turnLeft();
+            }
+            if (!leftIsClear())
+            {
+                turnRight();
+            }
+        }
+        else
+        {
+            moveForward();
+        }
+    }
+    pickBeeper();
+}
