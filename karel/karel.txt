@@ -180,3 +180,53 @@ void hangTheLampions()
 
     }
 }
+
+void followTheSeeds()
+{
+    // your code here
+    repeat (65)
+    {
+
+
+
+        if (beeperAhead())
+        {
+            moveForward();
+            pickBeeper();
+
+        }
+        else
+        {
+            turnLeft();
+        }
+    }
+}
+
+
+
+void solveTheMaze()
+{
+    while (!onBeeper())
+    {
+
+
+
+        if (frontIsClear())
+        {
+            moveForward();
+        }
+        else if (rightIsClear())
+        {
+            turnRight();
+        }
+        else if (leftIsClear())
+        {
+            turnLeft();
+        }
+        else
+        {
+            turnAround();
+        }
+
+    }
+}
