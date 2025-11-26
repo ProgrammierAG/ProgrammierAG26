@@ -1,0 +1,20 @@
+
+- [ ]  Ich kann im Internet suchen
+- [ ]  Ich kann meine Kollegen um Hilfe bitten
+- [ ]  Ich kenne die allgemeinen Datentypen
+- [ ]  Ich kann mit Variablen arbeiten
+- [ ]  Ich weiß, was ein Boolean ist
+- [ ]  Ich weiß, was arithmetische Operatoren sind
+- [ ]  Ich weiß, wie ich Daten in der Konsole eingeben und ausgeben kann
+- [ ]  Ich verstehe If-Else-Anweisungen
+- [ ]  Ich verstehe Switch-Cases
+- [ ]  Ich kann mit Schleifen arbeiten (While-, For-each-, For-Schleife)
+- [ ]  Ich kann mit Strings arbeiten
+- [ ]  Ich kann mit Listen arbeiten
+- [ ]  Ich kann mit Arrays arbeiten
+- [ ]  Ich weiß den Unterschied zwischen einer Liste und einem Array
+- [ ]  Ich kann mit Methoden arbeiten
+- [ ]  Ich weiß, was ein Rückgabewert ist
+- [ ]  Ich weiß, wie ich eine zufällige Zahl generiere
+- [ ]  Ich kann Exceptions werfen
+- [ ]  Ich kann Exceptions abfangen
