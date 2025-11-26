@@ -64,7 +64,17 @@ Nach der Installation und Konfiguration von Git kann das Repository „geklont�
     git checkout [branch Name]
     ```
 
-    --- 
+---
+
+## Rebase den branch
+
+Um den aktuellen Stand des Repositories zu erhalten, solltest du deinen branch auf „main” rebasen. Stelle sicher, dass du dich in deinem Branch befindest, und gib dann den folgenden Befehl im IntelliJ-IDEA-Terminal ein:
+
+```bash
+git rebase main
+```
+
+---
 
 ## Änderungen im Repository pushen
 
