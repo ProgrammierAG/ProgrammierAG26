@@ -4,8 +4,14 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
+    System.out.print("Gib deine Lieblingsfarbe ein:");
     Scanner sc = new Scanner(System.in);
-
+    String FAV = sc.nextLine();
+    System.out.println("Deine Lieblingsfarbe ist:" + FAV);
+    System.out.print("Gib deine Lieblingszahl ein:");
+    Scanner sc2 = new Scanner(System.in);
+    String FAZ = sc2.nextLine();
+    System.out.println("Deine Lieblingszahl ist:" + FAZ);
     sc.close();
   }
 }
