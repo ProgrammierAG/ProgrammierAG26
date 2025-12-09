@@ -5,7 +5,6 @@ public class Main {
 
 // Sehe: https://simpleclub.com/lessons/fachinformatikerin-operatoren-in-java
 
-
 // Operatoren = Symbole, die Operationen auf Variablen oder Werten ausführen
 
     // Kategorien von Operatoren:
