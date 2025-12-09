@@ -28,13 +28,21 @@ public class Main {
     // ***** IF-ELSE (entweder das eine, sonst das andere) *****
     // Zeigt zwei mögliche Wege: Bedingung wahr -> if; sonst -> else.
 
-//    int energie = 35;
+    int energie = 35;
+    String genugEnergie = "Genug Energie: Du kannst sprinten!";
+    String wenigEnergie = "Zu wenig Energie: Du gehst langsamer.";
 //
 //    if (energie >= 50) {
-//      System.out.println(GRUEN + "Genug Energie: Du kannst sprinten!" + RESET);
+//      System.out.println(GRUEN + genugEnergie + RESET);
 //    } else {
-//      System.out.println(GELB + "Zu wenig Energie: Du gehst langsamer." + RESET);
+//      System.out.println(GELB + wenigEnergie + RESET);
 //    }
+
+
+    // ***** Ternary Operator *****
+
+//    System.out.println((energie >= 50) ? (GRUEN + genugEnergie + RESET) : (GELB + wenigEnergie + RESET));
+
 
 
     // ***** IF - ELSE IF - ELSE (Mehrere Fälle, geordnet geprüft) *****
@@ -73,7 +81,7 @@ public class Main {
 //    }
 
 
-      // ***** Verschachtelte ifs (nur verwenden, wenn es wirklich hilft der Logik) *****
+    // ***** Verschachtelte ifs (nur verwenden, wenn es wirklich hilft der Logik) *****
 
 //    int muenzen = 100;
 //    int diamantPreis = 20;
