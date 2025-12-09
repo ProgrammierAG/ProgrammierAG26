@@ -1,9 +1,9 @@
-package programmierag.unterricht.__04__if_anweisung;
+package programmierag.unterricht.__04__if_switch_anweisung.__04__a_if_anweisung;
 
 public class Main {
   public static void main(String[] args) {
 
-    // Sehe: https://codegree.de/java-if/
+    // Siehe: https://codegree.de/java-if/
 
     // if Anweisungen = führen einen Code-Block aus, wenn die Bedingung Wahr ist
 
@@ -111,12 +111,12 @@ public class Main {
 //    }
 
 
-    // ***** Typischer Fehlerhinweis *****
+    // ***** Typische Fehlerhinweise *****
 
-    // Einfache Zuweisung (=) ist NICHT Vergleich. Für Vergleich: == verwenden.
+    // Einfache Zuweisung (=) ist NICHT Vergleich. Für Vergleich: == verwenden
     // Beispiel (auskommentiert, da Fehler): if (punktestand = 100) { ... }
 
-    // Bereiche NICHT mit "5 <= x <= 10" schreiben.
+    // Bereiche NICHT mit "5 <= x <= 10" schreiben
     // Stattdessen: if (x >= 5 && x <= 10) { ... }
 
   }

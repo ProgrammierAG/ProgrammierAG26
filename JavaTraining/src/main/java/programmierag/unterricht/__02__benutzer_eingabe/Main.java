@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
 
-    // Sehe: https://www.geeksforgeeks.org/java/scanner-class-in-java/
+    // Siehe: https://www.geeksforgeeks.org/java/scanner-class-in-java/
 
     Scanner scanner = new Scanner(System.in);     // Es muss ein Scanner erstellt werden, der die Eingabe lesen wird
 

@@ -3,7 +3,7 @@ package programmierag.unterricht.__03__operatoren;
 public class Main {
   public static void main(String[] args) {
 
-// Sehe: https://simpleclub.com/lessons/fachinformatikerin-operatoren-in-java
+// Siehe: https://simpleclub.com/lessons/fachinformatikerin-operatoren-in-java
 
 // Operatoren = Symbole, die Operationen auf Variablen oder Werten ausführen
 

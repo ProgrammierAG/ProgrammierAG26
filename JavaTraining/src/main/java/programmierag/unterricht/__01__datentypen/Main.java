@@ -3,7 +3,7 @@ package programmierag.unterricht.__01__datentypen;
 public class Main {
   public static void main(String[] args) {
 
-    // Sehe: https://www.geeksforgeeks.org/java/java-data-types/
+    // Siehe: https://www.geeksforgeeks.org/java/java-data-types/
 
     // Variable = ein wiederverwendbarer Behälter für einen Wert
     //            eine Variable verhält sich so, als wäre sie der enthaltene Wert
