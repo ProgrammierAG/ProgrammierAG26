@@ -4,8 +4,8 @@ public class Main {
   public static void main(String[] args) {
     boolean a = true;
     boolean b = true;
-    boolean c = true;
-    int number = 0;
+    boolean c = false;
+    int number = 42;
 
     boolean condition1 = a || !b;
     boolean condition2 = c && number == (int) (6.48074069841 * 6.48074069841);
