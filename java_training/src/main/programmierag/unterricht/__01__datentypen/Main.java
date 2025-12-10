@@ -3,7 +3,7 @@ package programmierag.unterricht.__01__datentypen;
 public class Main {
   public static void main(String[] args) {
 
-    // Siehe: https://www.geeksforgeeks.org/java/java-data-types/
+    // Sehe: https://www.geeksforgeeks.org/java/java-data-types/
 
     // Variable = ein wiederverwendbarer Behälter für einen Wert
     //            eine Variable verhält sich so, als wäre sie der enthaltene Wert
@@ -33,14 +33,14 @@ public class Main {
 
 
     // ***** INTEGER *****
-
+//
 //    int alter;          // Deklaration
 //    alter = 13;         // Zuweisung
 
 //    int alter = 13;   // Initializierung
 //    int ereignis = -200;
 
-//    int menge = 1_530;
+//    int menge1 = 1530324233;
 //    int menge = 1.530;
 
 //    System.out.print("Ich bin " + alter + " jahre alt!");
@@ -64,13 +64,13 @@ public class Main {
 
 //    boolean istOnline = true;  // Camel case Erklärung
 //    boolean istOnline = false;
-//
+
 //    System.out.print("Das Material ist auch online: " + istOnline);
 
 
     // ***** CHAR *****
 
-//    char waehrung = '€';
+//    char waehrung1 = '€';
 //    char waehrung = "€";
 //    char waehrung = 'Euro';
 
@@ -89,7 +89,7 @@ public class Main {
     String dritteEmail = "Beispiel3@gmail.com";
 
     System.out.println("\n------------------------------------\n\u001B[32m");
-
+//
     System.out.print(email);                  // Unterschied zwischen print und println
     System.out.print(zweiteEmail);
     System.out.print(dritteEmail);

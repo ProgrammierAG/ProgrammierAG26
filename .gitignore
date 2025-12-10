@@ -1,18 +1,17 @@
-ProjectA/.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-JavaTraining/.gradle
-
 ### IntelliJ IDEA ###
-.idea/*
-*.iws
-*.iml
-*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+# Default ignored files
+.idea/shelf/
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests/
+# Environment-dependent path to Maven home directory
+.idea/mavenHomeManager.xml
+# Datasource local storage ignored files
+.idea/dataSources/
+.idea/dataSources.local.xml
 
 ### Kotlin ###
 .kotlin
@@ -41,3 +40,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/.idea/workspace.xml
