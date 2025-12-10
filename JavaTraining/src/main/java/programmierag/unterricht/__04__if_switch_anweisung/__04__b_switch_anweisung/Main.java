@@ -5,7 +5,8 @@ public class Main {
 
   public static void main(String[] args) {
 
-    // Siehe: (Erklärung ohne externe Seite; „Enhanced Switch“ seit Java 14+)
+    // Siehe: https://www.datacamp.com/de/doc/java/switch  (für SWITCH ANWEISUNGEN)
+    // Siehe: https://codefinity.com/de/courses/v2/0bfa1111-8677-478f-bcd3-315dff1d7d40/9cde0d8f-06ad-44aa-aeb5-4724a217dcd3/0f3dc9b6-46e5-4030-b26d-9ab02dfcb342  (für ENCHANCED SWITCH ANWEISUNGEN)
 
     // Enchanced Switch Anweisungen = ein Ersatz für viele `if-Anweisungen´
     // Ideal für Menüs, Aktionen, Statuswerte, Enums.
