@@ -11,10 +11,15 @@ Schreibe ein Programm das eine Zahl, in ihre Note umwandelt benutze ein switch c
         - 6 : "ungenügend"
 */
 
-public class Aufgabe2 {
+import java.util.Scanner;
 
+public class Aufgabe2 {//
 
-
+ /*   Scanner scanner = new Scanner(System.in);
+    System.out.println("Wie heißt du?");
+    scanner.nextLine();
+    String name = scanner.nextLine();
+*/
 
 
 
