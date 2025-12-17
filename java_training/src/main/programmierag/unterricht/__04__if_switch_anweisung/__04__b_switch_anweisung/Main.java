@@ -1,5 +1,9 @@
 package programmierag.unterricht.__04__if_switch_anweisung.__04__b_switch_anweisung;
 
+import org.w3c.dom.ls.LSOutput;
+
+import java.sql.SQLOutput;
+
 public class Main {
 
 
@@ -59,7 +63,7 @@ public class Main {
 //            case 3 -> 35;
 //            case 4 -> {
 //                int basis = 40;
-//                int bonus = 15; // Extra-Bonus bei 4er-Kombo
+//               int bonus = 15; // Extra-Bonus bei 4er-Kombo
 //                yield basis + bonus; // „yield“ gibt den Wert des switch-Ausdrucks zurück
 //            }
 //            default -> 0;
@@ -73,5 +77,4 @@ public class Main {
     // Achte auf kompatible Typen: Alle Fälle müssen denselben Typ liefern (z. B. alle int oder alle String)
     // Für komplexe Fälle in einem Ausdruck: Block { ... } nutzen und „yield“ zurückgeben
   }
-
 }

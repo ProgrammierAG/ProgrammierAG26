@@ -1,6 +1,8 @@
 #### Aufgabenstellung
 
-Erstelle ein Programm, das eine zufällige Zahl zwischen 1 und 1000 generiert. Das Programm soll so lange laufen, bis die vom Nutzer gewählte Zahl zufällig erzeugt wurde. Zum Abschluss soll eine Nachricht erscheinen, die die Anzahl der Versuche angibt und einen Smiley **:), :|, :(** abhängig davon, wie viele Versuche benötigt wurden.
+Erstelle ein Programm, das eine zufällige Zahl zwischen 1 und 1000 generiert. 
+Das Programm soll so lange laufen, bis die vom Nutzer gewählte Zahl zufällig erzeugt wurde. 
+Zum Abschluss soll eine Nachricht erscheinen, die die Anzahl der Versuche angibt und einen Smiley **:), :|, :(** abhängig davon, wie viele Versuche benötigt wurden.
 
 ---
 #### Konsole

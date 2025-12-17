@@ -16,5 +16,5 @@ Schreibe ein Programm das eine Zahl, in ihre Note umwandelt benutze ein switch c
 Gebe eine Zahl ein: 1
 sehr gut
 ```
-
 ---
+public class Main
