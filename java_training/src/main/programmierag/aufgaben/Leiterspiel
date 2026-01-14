@@ -1,0 +1,16 @@
+package programmierag.aufgaben;
+
+public class Leiterspiel {
+    public static void main(String[] args) {
+        int versuche = 1;
+
+        int number = RandomNumber(1,6);
+
+        while (randomNum != 100) {
+
+        }
+    }
+
+    public static int RandomNumber(int zahl1,int zahl2) {
+        return (int) ((Math.random() * (zahl2 - zahl1)) + zahl1);
+    }
