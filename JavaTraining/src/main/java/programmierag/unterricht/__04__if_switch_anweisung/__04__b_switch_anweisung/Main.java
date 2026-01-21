@@ -10,7 +10,7 @@ public class Main {
 
     // Enchanced Switch Anweisungen = ein Ersatz für viele `if-Anweisungen´
     // Ideal für Menüs, Aktionen, Statuswerte, Enums.
-    // Macht den Code übersichtlicher, wenn es viele Fälle gibt.
+    // Macht den Code übersichtlicher, wenn es viele Fälle gibt
 
     // Farben für Konsole
     String ROT = "\u001B[31m";
